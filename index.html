@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaan Foods — Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header> 
+        <div class="logo">
+            <img src="food.png" alt="Shaan Foods Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <main id="home">
+        <div class="hero">
+            <p>Discover the best food within your budget</p>
+            <label for="product">Enter the Product</label>
+            <input id="product" type="text" placeholder="Search for the restaurant">
+            <button type="button" id="searchBtn">Search</button>
+        </div>
+    </main>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Our Popular Dishes</h2>
+        <div class="menu-container">
+
+            <div class="menu-item">
+                <img src="biryani.jpg" alt="Chicken Biryani">
+                <h3>Chicken Biryani</h3>
+                <p>₹180</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="burger.jpg" alt="Cheese Burger">
+                <h3>Cheese Burger</h3>
+                <p>₹120</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="pizza.jpg" alt="Margherita Pizza">
+                <h3>Margherita Pizza</h3>
+                <p>₹250</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="pasta.png" alt="Creamy Pasta">
+                <h3>Creamy Pasta</h3>
+                <p>₹160</p>
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="login-section">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Shaan Foods. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
